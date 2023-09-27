@@ -19,3 +19,44 @@ Nav {
     margin: 20px auto;
     height: 100%;
 }
+
+.container {
+    margin: auto;
+}
+.card {
+    width: 30%;
+    margin: 32px 0;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    transform: translate(-0%, -0%);
+}
+
+.heart {
+    position: absolute;
+    left: 89%;
+    top: 6%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+}
+
+.clipper {
+    position: absolute;
+    left: 0%;
+    top: 65%;
+    
+}
+
+.clip {
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px 12px;
+}
+
+.details {
+
+}
