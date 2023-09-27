@@ -74,9 +74,18 @@ Nav {
 .clip {
     display: inline-block;
     font-size: 12px;
-    padding: 2px 12px;
+    padding: 2px 8px;
 }
 
 span {
     font-size: 12px;
+}
+
+footer i {
+    width: 30px;
+   
+}
+
+.footnotes {
+    font-size: 10px;
 }
