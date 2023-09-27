@@ -132,4 +132,10 @@
 .darkslategray {color: darkslategray; }
 .lightgray {color: lightgray; }
 .white {color: white; }
+.red {color: red; }
 .orange {color: orange;}
+
+
+/*** TEXT DECORATION ***/
+
+.barred {text-decoration: line-through;}

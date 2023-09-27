@@ -13,6 +13,7 @@ header {
     position: fixed;
     width: 100%;
     box-shadow: 0px 0px 5px 1px;
+    z-index: 1;
 }
 
 Nav {
@@ -27,6 +28,13 @@ Nav {
     width: 30%;
     margin: 32px 0;
     position: relative;
+}
+
+.hidden {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    display: none;
 }
 
 .absolute {
@@ -44,6 +52,18 @@ Nav {
     padding: 5px;
 }
 
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .heart {
+    color: red;
+}
+
+.card:hover .hidden {
+    display: block;
+}
+
 .clipper {
     position: absolute;
     left: 0%;
@@ -57,6 +77,6 @@ Nav {
     padding: 2px 12px;
 }
 
-.details {
-
+span {
+    font-size: 12px;
 }
