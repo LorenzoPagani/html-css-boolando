@@ -2,12 +2,15 @@ ul {
     list-style: none;
 }
 
-li {display: inline-block;}
+li {
+    display: inline-block;
+}
 
 a {
     text-decoration: none;
     color: white;
 }
+
 header {
     background-color: #FF6900;
     position: fixed;
@@ -24,6 +27,7 @@ Nav {
 .container {
     margin: auto;
 }
+
 .card {
     width: 30%;
     margin: 32px 0;
@@ -67,14 +71,15 @@ Nav {
 .clipper {
     position: absolute;
     left: 0%;
-    top: 65%;
-    
+    top: 80%;
+    width: 70%;
 }
 
 .clip {
     display: inline-block;
     font-size: 12px;
     padding: 2px 8px;
+    font-size: 1vw;
 }
 
 span {
@@ -83,7 +88,6 @@ span {
 
 footer i {
     width: 30px;
-   
 }
 
 .footnotes {

@@ -7,6 +7,10 @@
 
 /*** display ***/
 
+/*** POSITION ***/
+
+.relative {position: relative;}
+
 /*** FLEX ***/
 .d-flex {	display: flex;	}
 .d-inline-flex {display: inline-flex;}
